@@ -9,11 +9,7 @@ class HomeController extends Controller
     public function home()
     {
         // dd("habijaibi");
-        return view('welcome');
+        return view('backend.master');
     }
-    public function aboutUs()
-    {
-        return view ('pages.about-us');
-    }
-    
+       
 }

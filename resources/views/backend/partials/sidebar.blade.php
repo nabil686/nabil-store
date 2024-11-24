@@ -43,6 +43,48 @@
                 Orders
               </a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                Order-Details
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                Payment
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                Wishlist
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                Report
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                Settings
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <svg class="bi"><use xlink:href="#file-earmark"/></svg>
+                Review & Ratings 
+              </a>
+            </li>
           
           
           </ul>
@@ -55,7 +97,7 @@
           <ul class="nav flex-column mb-auto">
           
             <li class="nav-item">
-              <a class="nav-link d-flex align-items-center gap-2" href="#">
+              <a class="nav-link d-flex align-items-center gap-2" href="{{route('signout')}}">
                 <svg class="bi"><use xlink:href="#door-closed"/></svg>
                 Sign out
               </a>

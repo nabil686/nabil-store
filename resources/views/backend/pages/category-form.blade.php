@@ -7,7 +7,7 @@
   
    <div class="form-group">
       <label for="name">Category Name</label>
-      <input name="cat_name" type="text" class="form-control" id="name" placeholder="Enter category">
+      <input name="cat_name" type="text" required class="form-control" id="name" placeholder="Enter category">
    </div>
 
       <div>
@@ -27,10 +27,10 @@
 
    <div class="form-group">
       <label for="name">Category Description</label>
-      <input name="cat_description" type="text" class="form-control" id="name" placeholder="Enter description">
+      <input name="cat_description" type="text" required class="form-control" id="name" placeholder="Enter description">
    </div>
 
-   <button type="submit" class="btn btn-success">submit</button>
+   <button type="submit" class="btn btn-success active">submit</button>
 
 </form>
 
